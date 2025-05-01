@@ -60,7 +60,7 @@
 	      (success	  . "#00ff00")
 	      (string     . "#a7bca4")))
 
-    (cream . ((background . "#f0e5da")
+    (cream . ((background . "#faf6f1")
 	      (foreground . "#000000")
 	      (weak	  . "#7d7165")
 	      (weaker	  . "#c4baaf")
@@ -105,7 +105,7 @@
 
       ;; mode line
       (mode-line (:box (:line-width -1 :color ,weaker)
-		       :background ,weakest :foreground ,foreground))
+		       :background ,background :foreground ,foreground))
 
       (mode-line-inactive (:box (:line-width -1 :color ,weaker)
 				:background ,background :foreground ,weaker))
