@@ -112,7 +112,7 @@
 
       ;; font lock
       (font-lock-keyword-face (:bold nil))
-      (font-lock-function-name-face (:bold nil))
+      (font-lock-function-name-face (:bold t))
       (font-lock-variable-name-face (:foreground ,foreground))
       (font-lock-warning-face (:foreground ,foreground :underline (:color ,warning :style wave)))
       (font-lock-builtin-face (:bold nil))
