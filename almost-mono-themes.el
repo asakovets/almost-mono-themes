@@ -162,7 +162,7 @@
       (diff-hl-delete (:background ,warning :foreground ,warning))
 
       ;; hl line
-      (hl-line (:background ,weakest))
+      (hl-line (:background ,foreground))
       (highlight-current-line-face (:inherit hl-line))
 
       ;; ido
