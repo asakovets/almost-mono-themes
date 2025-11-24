@@ -123,7 +123,7 @@
       (font-lock-comment-face (:foreground ,weak :italic nil))
       (font-lock-string-face (:foreground ,string))
       (font-lock-doc-face (:inherit font-lock-comment-face))
-      (line-number (:foreground ,weaker))
+      (line-number (:foreground ,foreground))
       (linum (:inherit line-number))
       (vertical-border (:foreground ,weaker))
 
